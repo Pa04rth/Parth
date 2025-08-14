@@ -158,12 +158,14 @@ export const DATA = {
   projects: [
     {
       title: "Trading_Peep",
-      href: "https://chatcollect.com",
+      href: "https://trading-peeps.vercel.app/",
       dates: "May 2025 - June 2025",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Trading_Peep is a comprehensive trading tool that provides real-time market data, advanced charting tools, and a user-friendly interface for traders of all levels. It offers features like bulk-deal informations in order to market analysis to help users make informed trading decisions.",
       technologies: [
+        "Python",
+        "Flask",
         "Next.js",
         "Typescript",
         "PostgreSQL",
@@ -171,7 +173,6 @@ export const DATA = {
         "TailwindCSS",
         "Stripe",
         "Shadcn UI",
-        "Magic UI",
       ],
       links: [
         {
@@ -189,7 +190,7 @@ export const DATA = {
       dates: "June 2023 - Present",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "Taking the inspiration from OWASP AIVSS Report V5 , this calculator is devloped in order to get the best risk scenarios over the Agentic AI vulenerabilities and threats. It provides a comprehensive risk assessment for Agentic AI systems, helping organizations identify and mitigate potential vulnerabilities.",
       technologies: [
         "Next.js",
         "Typescript",
